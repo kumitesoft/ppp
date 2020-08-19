@@ -1,0 +1,38 @@
+// *** BLOCK ***
+.blockSmall_container {
+  position: relative;
+  cursor: pointer;
+  min-height: 10rem;
+  display: flex;
+
+  // *** TITLE ***
+  .titleSmall {
+    transition: 0.2s;
+    position: absolute;
+    bottom: 1rem;
+    right: 12%;
+    font-weight: 600;
+    min-width: 8rem;
+    z-index: -1;
+  }
+
+  &:hover .titleSmall {
+    bottom: -1.1rem;
+    right: 0;
+    color: black;
+  }
+
+  a {
+    display: flex;
+
+    .imageSmall {
+      max-width: 100%;
+      transition: 0.2s;
+      border-radius: 0.2rem;
+    }
+  }
+
+  &:hover a .imageSmall {
+    transform: translate(-0.5rem, -0.5rem) rotate(-3deg);
+  }
+}

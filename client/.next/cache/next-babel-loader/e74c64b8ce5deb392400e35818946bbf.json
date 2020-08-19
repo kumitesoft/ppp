@@ -1,0 +1,1 @@
+{"ast":null,"code":"const obj = [{\n  title: 'mezczyzna',\n  description: 'Mezczyzni'\n}, {\n  title: 'kobieta',\n  description: 'Kobiety'\n}];\nexport const titleFn = subCategory => {\n  let title = obj.filter(el => el.title === subCategory)[0];\n  return title;\n};","map":null,"metadata":{},"sourceType":"module"}

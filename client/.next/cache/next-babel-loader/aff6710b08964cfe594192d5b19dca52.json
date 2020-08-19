@@ -1,0 +1,1 @@
+{"ast":null,"code":"var obj = [{\n  title: 'mezczyzna',\n  description: 'Mezczyzni'\n}, {\n  title: 'kobieta',\n  description: 'Kobiety'\n}];\nexport var titleFn = function titleFn(subCategory) {\n  var title = obj.filter(function (el) {\n    return el.title === subCategory;\n  })[0];\n  return title;\n};","map":null,"metadata":{},"sourceType":"module"}
